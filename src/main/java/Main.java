@@ -3,7 +3,6 @@
  * a una lista de listas y luego mostrar estas listas. El programa utiliza un menú de opciones
  * para que el usuario pueda seleccionar diferentes acciones.
  *
- *
  * @author Oscar Abraham de la Cruz López
  * @author Grecia
  * @author Yael
@@ -22,33 +21,18 @@ public class Main {
      */
     public static void main(String[] args) {
         // Crear una lista de 15 listas de enteros (con índices de 0 a 14)
-        /**
-         * @param listaDeListas Lista de listas de enteros. Cada lista de enteros representa una lista de elementos
-         */
         ArrayList<ArrayList<Integer>> listaDeListas = new ArrayList<>();
         for (int i = 0; i < 15; i++) {
             listaDeListas.add(new ArrayList<>());
         }
 
         // Crear un objeto Scanner para leer la entrada del usuario
-        /**
-         * @param sc Objeto Scanner para leer la entrada del usuario
-         */
         Scanner sc = new Scanner(System.in);
 
         // Crear un objeto Random para generar números aleatorios
-        /**
-         * @param rnd Objeto Random para generar números aleatorios
-         */
         Random rnd = new Random();
 
         // Crear una variable para almacenar la opción del usuario
-        /**
-         * La opción del usuario es un número entero que indica la acción que quiere realizar.
-         * El número 1 indica que el usuario quiere agregar un elemento a una lista. El número
-         * 2 indica que el usuario quiere mostrar la lista de listas. El número 3 indica que
-         * el usuario quiere salir del programa.
-         */
         int opcion;
 
         // Crear un bucle do-while para repetir el menú hasta que el usuario elija salir
