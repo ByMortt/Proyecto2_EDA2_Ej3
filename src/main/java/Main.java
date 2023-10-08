@@ -4,8 +4,8 @@
  * para que el usuario pueda seleccionar diferentes acciones.
  *
  * @author Oscar Abraham de la Cruz López
- * @author Grecia
- * @author Yael
+ * @author Grecia Irais Meneses Calderas
+ * @author Jesús Yael Caballero Antunez
  * @version 1.0
  */
 
